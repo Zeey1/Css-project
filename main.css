@@ -1,4 +1,26 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">.body{
+
+.body {
+  font-family: "San Serif";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ :root {
+  --white :color:var(--white) ;
+  --Orange :color:var(--Orange) ;
+}
+
+. {
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box;
+    background-image: url(new\ image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+
+}
+
 
