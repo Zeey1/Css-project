@@ -1,26 +1,77 @@
 
-.body {
-  font-family: "San Serif";
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
 
- :root {
-  --white :color:var(--white) ;
-  --Orange :color:var(--Orange) ;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=PT+Sans+Caption:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 . {
-    padding: 0%;
+padding: 0px;
+margin: 0%;
+box-sizing: border-box;
+}
+
+:root{
+ --white :color:var(--white) ;
+ --Orange :color:var(--Orange) ;
+}
+
+
+body {
+
+  font-family: "Karla", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  background-image: url('new\ image.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  color: var(--white);
+
+}
+
+/* Header Section */
+/* Header */
+
+header {
+
+    padding: 55px;
     margin: 0%;
-    box-sizing:border-box;
-    background-image: url(new\ image.jpeg);
+    box-sizing: border-box;
+    background-image: url('new\ image.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 100vh;
+    color: var(--white)
 
 
+}
+/* Header Section */
+/* Header */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* nav-logo */
+h1{
+  letter-spacing: -2px;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.Praroz {
+  color: var(--Orange);
+}
+
+/* Menu */
+ul {
+  display: flex;
+  gap: 40px;
+}
+
+ li {
+  list-style: none;
 }
 
 
